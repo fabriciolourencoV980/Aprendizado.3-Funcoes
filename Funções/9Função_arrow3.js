@@ -12,3 +12,8 @@ ComaparaComThis(global);
     let ComaparaComThisArrow = param => console.log(this === param)
     ComaparaComThisArrow(global); 
     ComaparaComThis(obj); 
+    ComaparaComThisArrow(module.exports);
+
+    ComaparaComThisArrow = ComaparaComThisArrow.bind(obj);
+    ComaparaComThisArrow(obj);
+    ComaparaComThisArrow(module.exports);
