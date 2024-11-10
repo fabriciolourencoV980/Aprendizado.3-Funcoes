@@ -5,7 +5,7 @@ function calcularJurosSimples(capital, taxa, tempo){
     
 };
 
-const capital = 600; 
+const capital = 20; 
 const taxa = 12;
 const tempo = 5;
 

@@ -5,5 +5,5 @@ function divisao(dividendo, divisor){
    }
 }; 
 
-console.log(divisao(10, 5))
+console.log(divisao(9, 5))
  
